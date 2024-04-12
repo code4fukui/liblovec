@@ -28,6 +28,8 @@
 
 します。
 
+(スプライトの位置に小数点を使うには: liblove.f.c)
+
 あとは sample.sprite.c などをご覧ください。
 
 ### [ other OS ]
@@ -69,5 +71,11 @@ liblove.c の調整が要るかもしれません。
 ### スプライト サンプル
 ```
 % gcc sample.sprite.c
+% ./a.out
+```
+
+### スプライト サンプル(float version)
+```
+% gcc sample.sprite.f.c
 % ./a.out
 ```
