@@ -40,10 +40,10 @@ int main(){
 
         c = Keyboard_inkey(&kbd);
         if(c == KEY_LEFT){
-            face.x_milli -= 1 * 1000;
+            face.x_milli -= 1 * 1500;
         }else
         if(c == KEY_RIGHT){
-            face.x_milli += 1 * 1000;
+            face.x_milli += 1 * 1500;
         }else
         if(c == KEY_UP){
             face.y_milli -= 1 * 1000;
