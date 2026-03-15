@@ -1,80 +1,65 @@
-# lovec library for C beginners
+# liblovec
+The liblovec library is for C language beginners, allowing them to create terminal-based games.
 
-これはC言語入門者のためのライブラリ、ターミナルだけでゲームを作ったりできます。
+## Features
+- Sprites
+    - Enables moving characters on the screen
+- Buttons
+    - Provides user interface
+- Keyboard
+    - Allows key input without pressing Enter
 
-## 機能
-
-* スプライト
-
-    画面上でキャラクタを動かせる
-
-* ボタン
-
-    ユーザーインタフェースの提供
-
-* キーボード
-
-    Enterを押さなくてもキー取得できる
-
-## 使い方
-
-### [ macos ]
-
-まず、
-
+## Usage
+### [macOS]
+First, include the library:
 ```
 #include "liblove.c"
 ```
+(For using floating-point coordinates for sprites, include "liblove.f.c" instead)
 
-します。
+Then, see the sample.sprite.c file for examples.
 
-(スプライトの位置に小数点を使うには: liblove.f.c)
+### [Other OS]
+The liblove.c file may need adjustment.
 
-あとは sample.sprite.c などをご覧ください。
-
-### [ other OS ]
-
-liblove.c の調整が要るかもしれません。
-
-## サンプルの動かし方
-
-### わんこ大喧嘩
+## Running Samples
+### Dog Fight
 ```
 % gcc wanco.c
 % ./a.out
 ```
 
-### にゃんこかわくだり
+### Nyan Cat Descent
 ```
 % gcc kawakudari.c
 % ./a.out
 ```
 
-### AtoZはやうちゲーム
+### A to Z Typing Game
 ```
 % gcc a2z.c
 % ./a.out
 ```
 
-### AtoZはやうちゲーム(like BASIC)
+### A to Z Typing Game (like BASIC)
 ```
 % gcc a2z.BASIC.c
 % ./a.out
 ```
 
-### キーコードチェックツール
+### Keycode Check Tool
 ```
 % gcc keycheck.c
 % ./a.out
 ```
 
-### スプライト サンプル
+### Sprite Sample
 ```
 % gcc sample.sprite.c
 % ./a.out
 ```
 
-### スプライト サンプル(float version)
+### Sprite Sample (float version)
 ```
 % gcc sample.sprite.f.c
 % ./a.out
