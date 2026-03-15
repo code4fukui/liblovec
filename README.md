@@ -1,4 +1,7 @@
 # liblovec
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 The liblovec library is for C language beginners, allowing them to create terminal-based games.
 
 ## Features
