@@ -67,3 +67,6 @@ The liblove.c file may need adjustment.
 % gcc sample.sprite.f.c
 % ./a.out
 ```
+
+## License
+MIT License — see [LICENSE](LICENSE).
